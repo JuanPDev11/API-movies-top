@@ -1,0 +1,69 @@
+body{
+    background-color: #002d65;
+    opacity: 0.8;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #002d65 10px ), repeating-linear-gradient( #70729755, #707297 );
+}
+
+#contenedor {
+    display: grid;
+    width: 70%;
+    margin: auto;
+    gap: 50px;
+}
+
+.pelicula-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 15px;
+    background: rgba(0,0,0,0.5);;
+    border-radius: 20px;
+    transition: 1s;
+}
+.pelicula-container:hover{
+    padding: 20px 15px;
+    transition: .5s;
+}
+
+img.poster {
+    width: 250px;
+    border-radius: 30px;
+}
+
+.data-container {
+    color: #fff;
+    font-size: 25px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin: 65px 0 130px;
+    gap: 20px;
+}
+
+.btn-prev {
+    padding: 20px 40px;
+    cursor: pointer;
+    background: aliceblue;
+    border: 2px solid #000;
+    border-radius: 35px;
+    transition: 1s;
+}
+.btn-prev:hover{
+    padding: 23px 43px;
+    transition: 1s;
+}
+.btn-next {
+    cursor: pointer;
+    padding: 20px 40px;
+    background: aliceblue;
+    border: 2px solid #000;
+    border-radius: 35px;
+    transition: 1s;
+}
+
+.btn-next:hover{
+    padding: 23px 43px;
+    transition: 1s;
+}
